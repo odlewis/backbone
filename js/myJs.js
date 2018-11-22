@@ -18,9 +18,9 @@ Book = Backbone.Model.extend({
 });
 
 //Instantiate Constructor
-//myBook = new Book();
-//console.log(myBook.get('name'));
-//console.log('The author is now '+myBook.get('author'));
+myBook = new Book();
+console.log(myBook.get('name'));
+console.log('The author is now '+myBook.get('author'));
 
 newBook = new Book({
     name: "Beginning Backbone", 
